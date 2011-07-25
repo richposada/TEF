@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<table border='0' cellspacing='0' cellpadding='0'>
+	<tr valign='top'>
+		<td>
+			<div><img src='../static/evan3.jpg'></div>
+		</td>
+	</tr>
+	<tr valign='top'>
+		<td>
+			<div id='content_text'>
+				{% for post in posts %}
+				<h2>{{post.title}}</h2>
+				<p>{{post.body}}</p>
+				{% endfor %}
+			</div>
+		</td>
+	</tr>
+</table>
+{% endblock %}

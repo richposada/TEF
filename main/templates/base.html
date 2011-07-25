@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../static/style.css">
+<link rel="icon" type="image/gif" href="../static/favicon.gif" />
+<title>The EVAN Foundation</title>
+</head>
+<body>
+	<div id='main'>	
+		<table width='900px' border='0' cellspacing='0' cellpadding='0'>
+			<tr valign='top'>
+				<td width='300px'>
+					<div id='leftbar'>
+						<div id="logo"><img src='../static/logo.jpg'></div>
+						<div id="navigation">
+	    					<ul class="top-level">
+	        					<li><a href="/main/home">Home</a></li>
+	        					<li><a href="/main/mission">Mission</a></li>
+	        					<li><a href="/main/evan">Evan's Story</a></li>
+	        					<li><a href="/main/neuroblastoma">About Neuroblastoma</a></li>
+	        					<li><a href="/main/donate">Donate</a></li>
+	        					<li><a href="/main/contact">Contact Us</a></li>
+	        					<li><a href="/main/events">News and Events</a></li>
+	        					<li><a href="/main/help">How Can I Help?</a></li>
+	    					</ul>
+						</div>			
+					</div>	
+				</td>
+				<td width='600px'>	
+					{% block content %}
+					{% endblock %}	
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
