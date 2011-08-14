@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Become a Friend</h2>
+<form action="/main/friend" method="post">{% csrf_token %}
+	<div id='content_text'>
+		<table border='0' width='100%'>
+			<tr><td>As a friend of The EVAN Foundation, you will be notified of upcoming events near you and of ways you can help in the fight against neuroblastoma.  Sign up today!</td><td><img src='../static/tef_thumb2.jpg'/></td></tr>
+		</table><br/><br/>
+		<table>
+			<tr>
+				<td><label for="id_firstName">First Name:</label><td>
+				<td>{{form.firstName}}</td>
+			</tr>
+			<tr>
+				<td><label for="id_lastName">Last Name:</label><td>
+				<td>{{form.lastName}}</td>
+			</tr>
+			<tr>
+				<td><label for="id_emailAddress">Email:</label><td>
+				<td>{{form.emailAddress}}</td>
+			</tr>
+			<tr>
+				<td><label for="id_city">City:</label><td>
+				<td>{{form.city}}</td>
+			</tr>
+			<tr>
+				<td><label for="id_state">State:</label><td>
+				<td>{{form.state}}</td>
+			</tr>
+		</table>
+		<input style="height: 25px; width: 100px" type="submit" value="Submit" />
+		<p>{{form.firstName.errors}}</p>
+		<p>{{form.lastName.errors}}</p>
+		<p>{{form.emailAddress.errors}}</p>
+		
+	</div>
+</form>
+{% endblock %}
+
+
+
+<form action="/contact/" method="post">
+<p><label for="id_subject">Subject:</label>
