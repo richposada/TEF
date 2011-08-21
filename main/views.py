@@ -64,6 +64,11 @@ def thanks(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def leadership(request):
+	t = loader.get_template("leadership.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 def contact_thanks(request):
 	t = loader.get_template("contact_thanks.html")
 	c = RequestContext(request)

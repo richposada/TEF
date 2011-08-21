@@ -14,6 +14,7 @@ from tef.main.views import friend
 from tef.main.views import thanks
 from tef.main.views import contact_thanks
 from tef.main.views import privacypolicy
+from tef.main.views import leadership
 
 
 urlpatterns = patterns('',
@@ -30,6 +31,7 @@ urlpatterns = patterns('',
 	url(r'thanks', thanks),
 	url(r'contact_thanks', contact_thanks),
 	url(r'privacypolicy', privacypolicy),
-    url(r'^$', comingsoon),
+	url(r'leadership', leadership),
+    url(r'^$', home),
     
 )
