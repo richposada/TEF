@@ -42,7 +42,7 @@ h3{
 
 #main{
   width: 900px ;
-  height: 1100px;
+  height: 1200px;
   margin: 0 auto;
   margin-left: auto ;
   margin-right: auto ;
@@ -55,7 +55,6 @@ h3{
 
 #leftbar{
 	width: 300px;
-	height: 100%;
 	float: left;
 	background-color:white;
 }
@@ -75,9 +74,21 @@ h3{
 	font-size: 21px;
 	background: #fffff;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 	color:#0e88f1;
 	margin-left:10px;		
+}
+
+#ldrtitle2{
+	width:90%;
+	font-family: Geneva,Arial,Sans-Serif;
+	font-size: 21px;
+	background: #fffff;
+	text-align: center;
+	text-decoration: none;
+	color:#000055;
+	margin-left:10px;	
+	padding-top:15px;	
 }
 
 #ldrdiv{
@@ -175,6 +186,7 @@ ul.sub-level li {
 
 img.special {border: 6px #000055 solid;}
 img.special2 {border: 6px #ffcc33 solid;}
+img.special3 {border: 6px #ffffff solid;}
 
 #yellow_bkg{
 	background-image:url('yellow_bkg.jpg');
