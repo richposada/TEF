@@ -15,6 +15,7 @@ from tef.main.views import thanks
 from tef.main.views import contact_thanks
 from tef.main.views import privacypolicy
 from tef.main.views import leadership
+from tef.main.views import EVANFest
 
 
 urlpatterns = patterns('',
@@ -24,7 +25,7 @@ urlpatterns = patterns('',
     url(r'evan', evan),
 	url(r'posts', archive),
 	url(r'help', help),
-	url(r'events', events),
+	url(r'events', EVANFest),
 	url(r'contact', contact),
 	url(r'donate', donate),
 	url(r'friend', friend),
@@ -32,6 +33,7 @@ urlpatterns = patterns('',
 	url(r'contact_thanks', contact_thanks),
 	url(r'privacypolicy', privacypolicy),
 	url(r'leadership', leadership),
-    url(r'^$', home),
+	url(r'EVANFest', EVANFest),
+    url(r'^$', EVANFest),
     
 )

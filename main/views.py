@@ -74,6 +74,11 @@ def contact_thanks(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def EVANFest(request):
+	t = loader.get_template("EVANFest2011.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 
 def friend(request):
 	c = {}
