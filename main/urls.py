@@ -16,7 +16,8 @@ from tef.main.views import contact_thanks
 from tef.main.views import privacypolicy
 from tef.main.views import leadership
 from tef.main.views import EVANFest
-
+from tef.main.views import EVANFest2011Pictures
+from tef.main.views import EVANFest2011MorePics
 
 urlpatterns = patterns('',
     url(r'home', home),
@@ -33,7 +34,8 @@ urlpatterns = patterns('',
 	url(r'contact_thanks', contact_thanks),
 	url(r'privacypolicy', privacypolicy),
 	url(r'leadership', leadership),
-	url(r'EVANFest', EVANFest),
+	url(r'pictures', EVANFest2011Pictures),
+	url(r'more', EVANFest2011MorePics),
     url(r'^$', EVANFest),
     
 )

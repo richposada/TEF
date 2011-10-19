@@ -90,6 +90,17 @@ h3{
 	margin-left:10px;	
 	padding-top:15px;	
 }
+#ldrtitle3{
+	width:90%;
+	font-family: Geneva,Arial,Sans-Serif;
+	font-size: 28px;
+	background: #fffff;
+	text-align: center;
+	text-decoration: none;
+	color:#000055;
+	margin-left:10px;	
+	padding-top:15px;	
+}
 
 #ldrdiv{
 	padding-top: 12px;
@@ -224,4 +235,19 @@ input {
 
 #submit{
 	width: 100px;
+}
+#divContainer{
+	float:left;
+	width:100%;
+}
+#divLeft{
+	float:left;
+}
+#divRight{
+	float:right;
+	padding-right:10px;
+}
+#divCenter{
+	float:center;
+	width:100%;
 }
