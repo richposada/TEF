@@ -59,6 +59,16 @@ def donate(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def cancel(request):
+	t = loader.get_template("cancel.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def donation(request):
+	t = loader.get_template("donation.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))	
+
 def thanks(request):
 	t = loader.get_template("thanks.html")
 	c = RequestContext(request)

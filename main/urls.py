@@ -10,6 +10,8 @@ from tef.main.views import help
 from tef.main.views import events
 from tef.main.views import contact
 from tef.main.views import donate
+from tef.main.views import cancel
+from tef.main.views import donation
 from tef.main.views import friend
 from tef.main.views import thanks
 from tef.main.views import contact_thanks
@@ -29,6 +31,8 @@ urlpatterns = patterns('',
 	url(r'events', EVANFest),
 	url(r'contact', contact),
 	url(r'donate', donate),
+	url(r'cancel', cancel),
+	url(r'donation', donation),
 	url(r'friend', friend),
 	url(r'thanks', thanks),
 	url(r'contact_thanks', contact_thanks),
