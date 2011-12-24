@@ -40,6 +40,6 @@ urlpatterns = patterns('',
 	url(r'leadership', leadership),
 	url(r'pictures', EVANFest2011Pictures),
 	url(r'more', EVANFest2011MorePics),
-    url(r'^$', EVANFest),
+    url(r'^$', home),
     
 )
