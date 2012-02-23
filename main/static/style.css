@@ -5,6 +5,9 @@ body{
 	behavior: url("csshover3.htc");
 }
 
+a img {
+ border: none;
+}
 
 h2{
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
