@@ -71,6 +71,15 @@ h3{
 	margin-left:10px;
 }
 
+#popup_text{
+	width:90%;
+	font-family: Trebuchet MS;
+	font-size: 16px;
+	background: #fffff;
+	text-align: left;
+	margin-left:10px;
+}
+
 #ldrtitle{
 	width:90%;
 	font-family: Geneva,Arial,Sans-Serif;

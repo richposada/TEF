@@ -130,6 +130,16 @@ def privacypolicy(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def kristen(request):
+	t = loader.get_template("kristen.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def hannah(request):
+	t = loader.get_template("hannah.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 def contact(request):
 	if request.method == 'POST':
 		form = ContactForm(request.POST)
