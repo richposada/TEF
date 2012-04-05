@@ -140,6 +140,11 @@ def hannah(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def rooftop(request):
+	t = loader.get_template("rooftop.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 def contact(request):
 	if request.method == 'POST':
 		form = ContactForm(request.POST)

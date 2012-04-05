@@ -23,6 +23,7 @@ from tef.main.views import EVANFest2011MorePics
 from tef.main.views import partners
 from tef.main.views import kristen
 from tef.main.views import hannah
+from tef.main.views import rooftop
 
 urlpatterns = patterns('',
     url(r'home', home),
@@ -46,6 +47,7 @@ urlpatterns = patterns('',
 	url(r'partners', partners),
 	url(r'kristen', kristen),
 	url(r'hannah', hannah),
-    url(r'^$', home),
+	url(r'rooftop', rooftop),
+    url(r'^$', rooftop),
     
 )

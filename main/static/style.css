@@ -210,6 +210,7 @@ ul.sub-level li {
 img.special {border: 6px #000055 solid;}
 img.special2 {border: 6px #ffcc33 solid;}
 img.special3 {border: 6px #ffffff solid;}
+img.special4 {border: 6px black solid;}
 
 #yellow_bkg{
 	background-image:url('yellow_bkg.jpg');
@@ -262,4 +263,19 @@ input {
 #divCenter{
 	float:center;
 	width:100%;
+}
+
+#rooftopDiv{
+	background-image:url('dc_spring.jpg');
+	text-align: center;
+	border-bottom: lightpink solid;
+    border-top: lightpink solid;
+    border-right: lightpink solid;
+    border-left: lightpink solid;
+    border-width: 4px;
+    width:98%;
+    background-repeat: no-repeat;
+    background-position: -350px -250px;
+    padding-top: 12px;
+	padding-bottom: 12px;
 }
