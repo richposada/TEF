@@ -140,8 +140,23 @@ def hannah(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
-def rooftop(request):
-	t = loader.get_template("rooftop.html")
+def julianna(request):
+	t = loader.get_template("julianna.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def news(request):
+	t = loader.get_template("news.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def springtime(request):
+	t = loader.get_template("springtime.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def treats(request):
+	t = loader.get_template("treats.html")
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
