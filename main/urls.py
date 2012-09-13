@@ -54,6 +54,6 @@ urlpatterns = patterns('',
 	url(r'treats', treats),
 	url(r'julianna', julianna),
 	url(r'springtime', springtime),
-    url(r'^$', home),
+    url(r'^$', events),
     
 )
