@@ -93,6 +93,11 @@ def EVANFest(request):
 	t = loader.get_template("EVANFest2011.html")
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
+	
+def EVANFest2012(request):
+	t = loader.get_template("EVANFest2012.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
 
 def EVANFest2011Pictures(request):
 	t = loader.get_template("EVANFest2011Pictures.html")
@@ -101,6 +106,11 @@ def EVANFest2011Pictures(request):
 	
 def EVANFest2011MorePics(request):
 	t = loader.get_template("EVANFest2011MorePics.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def Year2012Review(request):
+	t = loader.get_template("Year2012Review.html")
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 

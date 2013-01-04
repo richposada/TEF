@@ -27,6 +27,8 @@ from tef.main.views import news
 from tef.main.views import treats
 from tef.main.views import julianna
 from tef.main.views import springtime
+from tef.main.views import EVANFest2012
+from tef.main.views import Year2012Review
 
 urlpatterns = patterns('',
     url(r'home', home),
@@ -54,6 +56,8 @@ urlpatterns = patterns('',
 	url(r'treats', treats),
 	url(r'julianna', julianna),
 	url(r'springtime', springtime),
-    url(r'^$', events),
+	url(r'EVANFest2012', EVANFest2012),
+	url(r'Year2012Review', Year2012Review),
+    url(r'^$', Year2012Review),
     
 )
