@@ -113,6 +113,11 @@ def Year2012Review(request):
 	t = loader.get_template("Year2012Review.html")
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
+	
+def golf(request):
+	t = loader.get_template("golf.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
 
 def friend(request):
 	c = {}
