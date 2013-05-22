@@ -30,9 +30,11 @@ from tef.main.views import springtime
 from tef.main.views import EVANFest2012
 from tef.main.views import Year2012Review
 from tef.main.views import golf
+from tef.main.views import research
+from tef.main.views import fish
 
 urlpatterns = patterns('',
-    url(r'home', golf),
+    url(r'home', fish),
     url(r'mission', mission),
     url(r'neuroblastoma', neuroblastoma),
     url(r'evan', evan),
@@ -60,6 +62,8 @@ urlpatterns = patterns('',
 	url(r'EVANFest2012', EVANFest2012),
 	url(r'Year2012Review', Year2012Review),
 	url(r'golf', golf),
-    url(r'^$', golf),
+	url(r'research', research),
+	url(r'fish', fish),
+    url(r'^$', fish),
     
 )

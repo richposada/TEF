@@ -118,6 +118,16 @@ def golf(request):
 	t = loader.get_template("golf.html")
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
+	
+def research(request):
+	t = loader.get_template("research.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def fish(request):
+	t = loader.get_template("fish.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
 
 def friend(request):
 	c = {}
