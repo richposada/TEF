@@ -34,13 +34,13 @@ from tef.main.views import research
 from tef.main.views import fish
 
 urlpatterns = patterns('',
-    url(r'home', fish),
+    url(r'home', golf),
     url(r'mission', mission),
     url(r'neuroblastoma', neuroblastoma),
     url(r'evan', evan),
 	url(r'posts', archive),
 	url(r'help', help),
-	url(r'events', events),
+	url(r'events', fish),
 	url(r'contact', contact),
 	url(r'donate', donate),
 	url(r'cancel', cancel),
@@ -64,6 +64,6 @@ urlpatterns = patterns('',
 	url(r'golf', golf),
 	url(r'research', research),
 	url(r'fish', fish),
-    url(r'^$', fish),
+    url(r'^$', golf),
     
 )
