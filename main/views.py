@@ -170,6 +170,26 @@ def julianna(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def cale(request):
+	t = loader.get_template("cale.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def carly(request):
+	t = loader.get_template("carly.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+		
+def girlscout(request):
+		t = loader.get_template("girlscout.html")
+		c = RequestContext(request)
+		return HttpResponse(t.render(c))
+	
+def daisy(request):
+	t = loader.get_template("daisy.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 def news(request):
 	t = loader.get_template("news.html")
 	c = RequestContext(request)

@@ -26,6 +26,10 @@ from tef.main.views import hannah
 from tef.main.views import news
 from tef.main.views import treats
 from tef.main.views import julianna
+from tef.main.views import cale
+from tef.main.views import carly
+from tef.main.views import girlscout
+from tef.main.views import daisy
 from tef.main.views import springtime
 from tef.main.views import EVANFest2012
 from tef.main.views import Year2012Review
@@ -58,6 +62,10 @@ urlpatterns = patterns('',
 	url(r'news', news),
 	url(r'treats', treats),
 	url(r'julianna', julianna),
+	url(r'cale', cale),
+	url(r'carly', carly),
+	url(r'girlscout', girlscout),
+	url(r'daisy', daisy),
 	url(r'springtime', springtime),
 	url(r'EVANFest2012', EVANFest2012),
 	url(r'Year2012Review', Year2012Review),
