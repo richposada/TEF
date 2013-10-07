@@ -38,7 +38,7 @@ from tef.main.views import research
 from tef.main.views import fish
 
 urlpatterns = patterns('',
-    url(r'home', events),
+    url(r'home', golf),
     url(r'mission', mission),
     url(r'neuroblastoma', neuroblastoma),
     url(r'evan', evan),
