@@ -36,6 +36,8 @@ from tef.main.views import Year2012Review
 from tef.main.views import golf
 from tef.main.views import research
 from tef.main.views import fish
+from tef.main.views import pizza
+from tef.main.views import alyssaclaire
 
 urlpatterns = patterns('',
     url(r'home', golf),
@@ -44,7 +46,7 @@ urlpatterns = patterns('',
     url(r'evan', evan),
 	url(r'posts', archive),
 	url(r'help', help),
-	url(r'events', golf),
+	url(r'events', fish),
 	url(r'contact', contact),
 	url(r'donate', donate),
 	url(r'cancel', cancel),
@@ -59,13 +61,14 @@ urlpatterns = patterns('',
 	url(r'partners', partners),
 	url(r'kristen', kristen),
 	url(r'hannah', hannah),
-	url(r'news', news),
+	url(r'news', fish),
 	url(r'treats', treats),
 	url(r'julianna', julianna),
 	url(r'cale', cale),
 	url(r'carly', carly),
 	url(r'girlscout', girlscout),
 	url(r'daisy', daisy),
+	url(r'alyssaclaire', alyssaclaire),
 	url(r'springtime', springtime),
 	url(r'EVANFest2012', EVANFest2012),
 	url(r'Year2012Review', Year2012Review),

@@ -190,6 +190,11 @@ def daisy(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def alyssaclaire(request):
+	t = loader.get_template("alyssaclaire.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 def news(request):
 	t = loader.get_template("news.html")
 	c = RequestContext(request)
@@ -202,6 +207,11 @@ def springtime(request):
 	
 def treats(request):
 	t = loader.get_template("treats.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
+def pizza(request):
+	t = loader.get_template("pizza.html")
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	

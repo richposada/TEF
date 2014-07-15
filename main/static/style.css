@@ -45,7 +45,7 @@ h3{
 
 #main{
   width: 900px ;
-  height: 2100px;
+  height: 2800px;
   margin: 0 auto;
   margin-left: auto ;
   margin-right: auto ;
@@ -139,6 +139,15 @@ h3{
 	font-style:italic;
 	background: #fffff;
 	text-align: center;
+	margin-left:10px;
+}
+
+#reviewletter{
+	width:90%;
+	font-family: Geneva,Arial,Sans-Serif;
+	font-size: 16px;
+	background: #fffff;
+	text-align: left;
 	margin-left:10px;
 }
 
