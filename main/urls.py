@@ -38,6 +38,7 @@ from tef.main.views import research
 from tef.main.views import fish
 from tef.main.views import pizza
 from tef.main.views import alyssaclaire
+from tef.main.views import townsend
 
 urlpatterns = patterns('',
     url(r'home', golf),
@@ -68,6 +69,7 @@ urlpatterns = patterns('',
 	url(r'carly', carly),
 	url(r'girlscout', girlscout),
 	url(r'daisy', daisy),
+	url(r'townsend', townsend),
 	url(r'alyssaclaire', alyssaclaire),
 	url(r'springtime', springtime),
 	url(r'EVANFest2012', EVANFest2012),

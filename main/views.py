@@ -195,6 +195,11 @@ def alyssaclaire(request):
 	c = RequestContext(request)
 	return HttpResponse(t.render(c))
 	
+def townsend(request):
+	t = loader.get_template("townsend.html")
+	c = RequestContext(request)
+	return HttpResponse(t.render(c))
+	
 def news(request):
 	t = loader.get_template("news.html")
 	c = RequestContext(request)
