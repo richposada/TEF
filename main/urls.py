@@ -41,7 +41,7 @@ from tef.main.views import alyssaclaire
 from tef.main.views import townsend
 
 urlpatterns = patterns('',
-    url(r'home', golf),
+    url(r'home', fish),
     url(r'mission', mission),
     url(r'neuroblastoma', neuroblastoma),
     url(r'evan', evan),
@@ -77,6 +77,6 @@ urlpatterns = patterns('',
 	url(r'golf', golf),
 	url(r'research', research),
 	url(r'fish', fish),
-    url(r'^$', golf),
+    url(r'^$', fish),
     
 )
